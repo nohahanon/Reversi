@@ -241,7 +241,7 @@ int whereareyou(int x, int y)
 }
 void set(char player, int x, int y)
 {
-    //�ՖʍX�V
+    //�ՖʍX�V
     int i, j;
     int h = whereareyou(x, y);
     char enm = player == ME ? YOU : ME;
